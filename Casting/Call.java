@@ -15,12 +15,12 @@ public class Call {
         } else {
 
             System.out.println(sub2.instanceOfSubClass());
-
+            
         }
 
     }
 
-//    UpCasting
+//    UpCasting (SubClass1)
     public void invoke(SubClass1 subClass1) {
 
         if (subClass1 instanceof Available) {
@@ -35,7 +35,7 @@ public class Call {
 
     }
 
-    //    UpCasting
+    //    UpCasting (SubClass2)
     public void invoke(SubClass2 subClass2) {
 
         if (subClass2 instanceof Available) {
